@@ -11,11 +11,16 @@
 .list-wrapper {
   display: flex;
   flex-direction: column;
-  width: 300px;
-  gap: 10px
+  align-items: center;
+  padding-top: 10%;
+  width: 600px;
+  height: 400px;
+  gap: 10px;
+  background-image: url("./assets/background.jpg");
 }
 
 .list-item {
+  width: 40%;
   display: flex;
   align-items: center;
   background-color: transparent;
@@ -36,7 +41,7 @@
   position: relative;
   width: var(--icon-size);
   height: var(--icon-size);
-  transition: transform 0.5s;
+  transition: transform 0.7s;
   transform-style: preserve-3d;
 }
 
@@ -70,7 +75,7 @@
 }
 
 .title {
-  transition: 0.5s;
+  transition: 0.7s;
 }
 
 @keyframes spin {
